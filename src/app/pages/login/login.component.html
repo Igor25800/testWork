@@ -1,0 +1,16 @@
+<div class="container">
+  <form class="colum g-3" [formGroup]="formLogin">
+    <div class="col-auto">
+      <label for="username" class="visually-hidden">Username</label>
+      <input type="text" class="form-control" id="username" placeholder="Username" formControlName="username">
+    </div>
+    <div class="col-auto">
+      <label for="inputPassword2" class="visually-hidden">Password</label>
+      <input type="password" class="form-control" id="inputPassword2" placeholder="Password" formControlName="password">
+    </div>
+    <div class="col-auto">
+      <button (click)="login()" type="button" class="btn btn-primary mb-3">Login</button>
+    </div>
+  </form>
+</div>
+

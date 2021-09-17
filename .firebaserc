@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "testwork-610c9": {
+      "hosting": {
+        "testWork": [
+          "testwork-610c9"
+        ]
+      }
+    }
+  }
+}

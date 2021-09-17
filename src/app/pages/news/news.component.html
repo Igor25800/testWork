@@ -1,0 +1,14 @@
+<div class="row p-5">
+  <div class="card" style="width: 20%;" aria-hidden="true" *ngFor="let item of arrNew">
+    <img [src]="item.urlToImage" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title placeholder-glow">{{item.title}}</h5>
+      <p>{{item.description}}</p>
+      <div class="row">
+        <p class="text">{{item.author}}</p>
+        <p class="text">{{item.publishedAt}}</p>
+      </div>
+    </div>
+  </div>
+
+</div>
